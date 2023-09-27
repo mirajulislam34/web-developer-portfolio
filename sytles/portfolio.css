@@ -33,12 +33,14 @@ nav>ul {
     align-items: center;
 
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     /* justify-content: space-around;
     justify-content: space-between; */
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 nav>ul>li {
@@ -60,5 +62,18 @@ button {
     font-size: 20px;
     font-weight: 700;
     padding: 17px 17px;
+}
 
+.header {
+    background: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center; 
+ 
+}
+.banner .profile-picture{
+    width: 500px;
 }
